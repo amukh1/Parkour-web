@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans:wght@600;700&display=swap');
+
+body {
+    font-family: 'Spline Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+
+.header {
+    width: 100%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    background-color: rgb(109, 47, 255);
+    font-style: italic;
+}
+
+.divider {
+    background-color: black;
+    width: 100%;
+    height: 10vh;
+    color: white;
+    text-align: center;
+}
+
+.isa {
+    margin: 10px;
+}
+
+.headerd {
+    width: 100%;
+    height: 25vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    background-color: rgb(138, 49, 255);
+    /* font-style: italic; */
+    font-weight: 700;
+}
+
+
+       /* width */
+       ::-webkit-scrollbar {
+        width: 5px;
+      }
+      
+      /* Track */
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1; 
+      }
+       
+      /* Handle */
+      ::-webkit-scrollbar-thumb {
+        background: #888; 
+         border-radius: 15px;
+      }
+      
+      /* Handle on hover */
+      ::-webkit-scrollbar-thumb:hover {
+        background: #555; 
+      }
