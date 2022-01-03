@@ -2,7 +2,7 @@ console.log(document.cookie)
 
 let circle = ['Site programmed and designed by amukh1.', 'Parkour is a sport that requires a lot of energy and agility.']
 
-console.log('v1.0.0')
+console.log('v1.2.0')
 setInterval(credits, 4000);
 
 function credits() {
