@@ -105,6 +105,7 @@ font-size: 50px;
 color: white;
 
 font-size: 55px;
+cursor: pointer;
 }
 
 .g:active {
@@ -131,3 +132,6 @@ font-size: 55px;
     color: rgb(255, 255, 255);
 }
 
+#eee:hover {
+color: white;
+}
