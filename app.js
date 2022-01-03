@@ -1,8 +1,10 @@
 console.log(document.cookie)
 
-let circle = ['Site programmed and designed by amukh1.', 'Parkour is a sport that requires a lot of energy and agility.']
+let version = 'v1.2.0'
 
-console.log('v1.2.0')
+let circle = ['Site programmed and designed by amukh1.', 'Parkour is a sport that requires a lot of energy and agility.', `This is version ${version}`]
+
+console.log(version)
 setInterval(credits, 4000);
 
 function credits() {
