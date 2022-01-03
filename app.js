@@ -1,5 +1,7 @@
 console.log(document.cookie)
 
+console.log('v1.0.0')
+
 setInterval(credits, 3000);
 
 function credits() {
