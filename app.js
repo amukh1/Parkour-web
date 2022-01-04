@@ -1,6 +1,6 @@
 console.log(document.cookie)
 
-let version = 'v1.4.2'
+let version = 'v1.5.2'
 
 let circle = ['The study of movement', 'This website was made for one of my favorite games. They choose some other guys website over mine.', 'Site programmed and designed by amukh1#9613', 'Parkour is a sport that requires a lot of energy and agility.', `This is version ${version}`]
 
