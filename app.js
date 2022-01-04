@@ -25,3 +25,7 @@ function credits() {
     }
     document.getElementById('eee').innerHTML = circle[current + 1]
 }
+
+function useless(e) {
+console.log(e)
+}
