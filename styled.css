@@ -169,3 +169,21 @@ color: white;
     background-color: rgb(36, 13, 88);
     
 }
+
+.eq {
+    transition: all 0.5s ease;
+    font-size: 3rem;
+}
+
+.eq:hover {
+    font-size: 4rem;
+    color: white;
+}
+
+.qq {
+    font-size: 8rem;
+}
+
+.qq:hover {
+    font-size: 9rem;
+}

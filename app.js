@@ -2,7 +2,7 @@ console.log(document.cookie)
 
 let version = 'v1.5.2'
 
-let circle = ['The study of movement', 'This website was made for one of my favorite games. They choose some other guys website over mine.', "Like the scroll animation?",'Site programmed and designed by amukh1#9613', 'Parkour is a sport that requires a lot of energy and agility.', `This is version ${version}`]
+let circle = ['The study of movement', 'This website was made for one of my favorite games. They choose some other guys website over mine.', 'Site programmed and designed by amukh1#9613', 'Parkour is a sport that requires a lot of energy and agility.', `This is version ${version}`]
 
 console.log(version)
 setInterval(credits, 4000);
@@ -32,9 +32,28 @@ let target = e.innerHTML
 window.location.href = `https://parkour.amukh1.dev/${target}`
 }
 
-function byebye() {
+function byebye(e, j) {
     document.getElementById('move').style.top = '100px'
     document.getElementById('move').style.opacity = '0'
     display = 'none'
+    if(e ==  true){
+        window.scrollBy(0, 655);
+    }else if(e == false){
+        window.scrollBy(0, 700);
+    }else if(e == 'end'){
+        window.scrollBy(0,      2000);
+
+    }else{
     window.scrollBy(0, 1000);
+    console.log(e)
+    }
+    if(j == true){
+        
+         console.log('true')
+        document.getElementById('moved').style.display = 'none'
+        document.getElementById('aaa').style.marginBottom = '100px'
+        window.scrollBy(0, 1000);
+    }
 }
+
+// document.getElementById('f').style.fontSize = '15rem;'
