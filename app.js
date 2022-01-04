@@ -28,4 +28,6 @@ function credits() {
 
 function useless(e) {
 console.log(e)
+let target = e.innerHTML
+window.location.href = `https://parkour.amukh1.dev/${target}`
 }
