@@ -2,7 +2,7 @@ console.log(document.cookie)
 
 let version = 'v1.2.1'
 
-let circle = ['Site programmed and designed by amukh1.', 'Parkour is a sport that requires a lot of energy and agility.', `This is version ${version}`]
+let circle = ['The study of movement', 'Site programmed and designed by amukh1.', 'Parkour is a sport that requires a lot of energy and agility.', `This is version ${version}`]
 
 console.log(version)
 setInterval(credits, 4000);
