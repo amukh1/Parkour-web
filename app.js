@@ -31,3 +31,10 @@ console.log(e)
 let target = e.innerHTML
 window.location.href = `https://parkour.amukh1.dev/${target}`
 }
+
+function byebye() {
+    document.getElementById('move').style.top = '100px'
+    document.getElementById('move').style.opacity = '0'
+    display = 'none'
+    window.scrollBy(0, 1000);
+}
